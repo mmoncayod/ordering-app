@@ -12,9 +12,6 @@
       "@assets/*": [
         "assets/*"
       ],
-      "@src/*": [
-        "src/*"
-      ] 
     }
   },
   "include": [
