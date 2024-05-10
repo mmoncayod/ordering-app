@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 import Colors from "../constants/Colors";
-import { Product } from "@src/types";
+import { Product } from "@/types";
 
 export const defaultPizza =
   "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/peperoni.png";
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 10,
     borderRadius: 20,
+    flex: 1,
   },
   title: {
     fontSize: 20,
